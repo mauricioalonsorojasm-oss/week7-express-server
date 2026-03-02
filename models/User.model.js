@@ -15,7 +15,11 @@ const userSchema = new Schema(
     password: {
       type: String,
       required: [true, 'Password is required.']
-    }
+    },
+
+    username: String,
+
+  
   },
   {
     // this second object adds extra properties: `createdAt` and `updatedAt`    
