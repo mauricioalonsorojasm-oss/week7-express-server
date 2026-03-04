@@ -8,6 +8,8 @@ const jwt = require("jsonwebtoken");
 
 const verifyToken = require("../middlewares/auth.middlewares");
 
+const { payload } = require("../middlewares/auth.middlewares");
+
 
 
 // POST "/api/auth/signup" => to create a new user in the database
